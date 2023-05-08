@@ -53,6 +53,11 @@ module.exports = {
         },
       }
     },
+
+    fontFamily: {
+      content: ['Poppins', 'sans-serif']
+    }
   },
+
   plugins: [],
 }

@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import '@/app/variables';
+@import '@/assets/styles/fonts';
+@import '@/assets/styles/variables';
 
+html,
 body {
-  @apply bg-charcoal text-white;
+  @apply bg-charcoal h-full font-content text-grey-50;
 }
 
 .site__container {

@@ -1,6 +1,6 @@
 import { defaultMetadata } from '@/config/site';
 import SiteHeader from '@/components/layouts/SiteHeader';
-import './globals.scss';
+import '@/assets/styles/globals.scss';
 
 export const metadata = defaultMetadata;
 
