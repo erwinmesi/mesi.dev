@@ -1,0 +1,43 @@
+  /**
+  * `primary`, `success`, `info`, `warning`, `danger`, `light` color tints and shades were generated from this Color Generator [https://ionicframework.com/docs/theming/color-generator]
+  */
+  :root {
+    --z-index-base: 0;
+    --z-index-nav: calc(var(--z-index-base) + 1);
+
+    --color-grey-50: #ffffff;
+    --color-grey-100: #f1f1f1;
+    --color-grey-200: #d4d4d4;
+    --color-grey-300: #b8b8b8;
+    --color-grey-400: #9c9c9c;
+    --color-grey-500: #808080;
+    --color-grey-600: #636363;
+    --color-grey-700: #474747;
+    --color-grey-800: #2a2a2a;
+    --color-grey-900: #0e0e0e;
+    --color-grey-950: #000000;
+    --color-grey: #808080;
+    --color-grey-rgb: 128,128,128;
+    --color-grey-contrast: #000000;
+    --color-grey-contrast-rgb: 0,0,0;
+    --color-grey-shade: #717171;
+    --color-grey-tint: #8d8d8d;
+
+    --color-primary-50: #fffaf1;
+    --color-primary-100: #ffefd4;
+    --color-primary-200: #ffe4b8;
+    --color-primary-300: #ffd99c;
+    --color-primary-400: #ffce80;
+    --color-primary-500: #ffc363;
+    --color-primary-600: #ffb847;
+    --color-primary-700: #ffae2a;
+    --color-primary-800: #ffa30e;
+    --color-primary-900: #f19400;
+    --color-primary-950: #d48300;
+    --color-primary: #FF9E02; // between 800 and 900
+    --color-primary-rgb: 255,158,2;
+    --color-primary-contrast: #000000;
+    --color-primary-contrast-rgb: 0,0,0;
+    --color-primary-shade: #e08b02;
+    --color-primary-tint: #ffa81b;
+  }
