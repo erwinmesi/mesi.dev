@@ -1,6 +1,11 @@
+import HomeHeader from '@/components/home/HomeHeader';
+
 function page() {
   return (
-    <div className="grid place-content-center h-[80vh]">Coming Soon...</div>
+    <main className="site__container">
+      <HomeHeader />
+      <div className="grid place-content-center my-24">Coming Soon...</div>
+    </main>
   );
 }
 

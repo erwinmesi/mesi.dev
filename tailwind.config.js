@@ -51,12 +51,13 @@ module.exports = {
           tint: 'var(--color-primary-tint)',
           disabled: 'rgba(var(--color-primary-rgb), 0.66)'
         },
+      },
+
+
+      fontFamily: {
+        content: ['Poppins', 'sans-serif']
       }
     },
-
-    fontFamily: {
-      content: ['Poppins', 'sans-serif']
-    }
   },
 
   plugins: [],

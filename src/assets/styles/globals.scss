@@ -7,7 +7,12 @@
 
 html,
 body {
-  @apply bg-charcoal h-full font-content text-grey-50;
+  @apply h-full;
+}
+
+
+body {
+  @apply bg-charcoal text-sm font-content text-grey-50 font-light;
 }
 
 .site__container {
