@@ -36,3 +36,4 @@ next-env.d.ts
 
 # build files
 dist-repo
+deploy.sh
