@@ -44,6 +44,7 @@ function HomeAbout() {
           <ul className="list-disc pl-4 space-y-1">
             <li>Laravel, Firebase, Node / Express</li>
             <li>Python (Web Scraping, Browser Automation)</li>
+            <li>Nginx, Cloudflare</li>
           </ul>
         </div>
 
