@@ -27,7 +27,7 @@ function HomeAbout() {
       <h2 className="mb-3 font-semibold mt-12">My Tech Stack</h2>
       <div className="about__content text-grey-300 space-y-6">
         <div>
-          <h4 className="mb-1.5 font-medium">Front-end:</h4>
+          <h3 className="mb-1.5 font-medium">Front-end:</h3>
           <ul className="list-disc pl-4 space-y-1">
             <li>JavaScript, TypeScript, ES6+, Vue, Nuxt, React, Next</li>
             <li>CSS, SASS, SCSS, CSS Modules</li>
@@ -40,7 +40,7 @@ function HomeAbout() {
         </div>
 
         <div>
-          <h4 className="mb-1.5 font-medium">Back-end:</h4>
+          <h3 className="mb-1.5 font-medium">Back-end:</h3>
           <ul className="list-disc pl-4 space-y-1">
             <li>Laravel, Firebase, Node / Express</li>
             <li>Python (Web Scraping, Browser Automation)</li>
@@ -49,7 +49,7 @@ function HomeAbout() {
         </div>
 
         <div>
-          <h4 className="mb-1.5 font-medium">Testing:</h4>
+          <h3 className="mb-1.5 font-medium">Testing:</h3>
           <ul className="list-disc pl-4 space-y-1">
             <li>Jest, Puppeteer</li>
             <li>Selenium</li>
@@ -58,14 +58,14 @@ function HomeAbout() {
         </div>
 
         <div>
-          <h4 className="mb-1.5 font-medium">Web Design:</h4>
+          <h3 className="mb-1.5 font-medium">Web Design:</h3>
           <ul className="list-disc pl-4 space-y-1">
             <li>Figma, Adobe XD</li>
           </ul>
         </div>
 
         <div>
-          <h4 className="mb-1.5 font-medium">Mobile:</h4>
+          <h3 className="mb-1.5 font-medium">Mobile:</h3>
           <ul className="list-disc pl-4 space-y-1">
             <li>React Native, Ionic Vue</li>
             <li>Progressive Web Apps</li>
@@ -73,7 +73,7 @@ function HomeAbout() {
         </div>
 
         <div>
-          <h4 className="mb-1.5 font-medium">Databases:</h4>
+          <h3 className="mb-1.5 font-medium">Databases:</h3>
           <ul className="list-disc pl-4 space-y-1">
             <li>
               MySQL, MongoDB, Firebase: Realtime Database | Cloud Firestore |
@@ -83,7 +83,7 @@ function HomeAbout() {
         </div>
 
         <div>
-          <h4 className="mb-1.5 font-medium">CMS:</h4>
+          <h3 className="mb-1.5 font-medium">CMS:</h3>
           <ul className="list-disc pl-4 space-y-1">
             <li>Strapi, Contentful</li>
           </ul>
