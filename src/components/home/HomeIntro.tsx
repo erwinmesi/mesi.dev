@@ -4,7 +4,7 @@ function HomeAbout() {
       <h2 className="mb-3 font-semibold">About</h2>
       <div className="about__content text-grey-300 space-y-6">
         <p>
-          Erwin, a Full-Stack Web and Hybrid Mobile Developer with vast
+          Full-Stack Web and Hybrid Mobile Developer with vast
           experience in coding different Web Frameworks.
         </p>
 
