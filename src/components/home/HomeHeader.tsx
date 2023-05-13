@@ -19,14 +19,14 @@ function HomeHeader() {
     () =>
       majorTools.map((item, index) => (
         <>
-          {item} {index < majorTools.length - 1 && <Pipe />}
+          {item}{index < majorTools.length - 1 && <Pipe />}
         </>
       )),
     []
   );
 
   return (
-    <section className="flex gap-y-6 sm:gap-x-8 items-center my-12 flex-col sm:flex-row max-w-2xl mx-auto">
+    <section className="flex flex-col sm:flex-row sm:items-center max-w-2xl mx-auto gap-y-6 sm:gap-x-8 my-12">
       <span>
         <Image
           src={image}
@@ -37,16 +37,16 @@ function HomeHeader() {
         />
       </span>
       <div className="space-y-1">
-        <h1 className="text-center sm:text-left text-2xl">Erwin Mesias</h1>
-        <p className="text-center sm:text-left text-grey-200 text-base">
+        <h1 className="text-2xl">Erwin Mesias</h1>
+        <p className="text-grey-200 text-base">
           Full-Stack Web & Mobile Developer
         </p>
-        <p className="text-center sm:text-left text-grey-300 hover:text-grey-300 hover:underline flex items-center justify-center sm:justify-start">
+        <p className="text-sm">{renderSkills()}</p>
+        <p className="text-grey-300 hover:text-grey-300 hover:underline flex">
           <a href={URL_UPWORK} target="_blank">
             Upwork Freelancer <ExternalLink className="ml-1 inline" size="14" />
           </a>
         </p>
-        <p className="text-center sm:text-left text-sm">{renderSkills()}</p>
       </div>
     </section>
   );
