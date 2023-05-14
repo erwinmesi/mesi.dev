@@ -19,7 +19,7 @@ function SiteHeader() {
         </a>
         <a href={URL_UPWORK} target="_blank">
           <SiteButton>
-            Hire me on Upwork
+            Hire me
             <ExternalLink size="14" />
           </SiteButton>
         </a>

@@ -1,11 +1,13 @@
-function HomeAbout() {
+import cn from 'classnames';
+
+function HomeAbout({ className }: any) {
   return (
-    <section className="max-w-2xl mx-auto">
-      <h2 className="mb-3 font-semibold">About</h2>
+    <section className={cn(className, 'max-w-2xl mx-auto')}>
+      <h2 className="mb-3 font-semibold text-base">About</h2>
       <div className="about__content text-grey-300 space-y-6">
         <p>
-          Full-Stack Web and Hybrid Mobile Developer with vast
-          experience in coding different Web Frameworks.
+          Full-Stack Web and Hybrid Mobile Developer with vast experience in
+          coding different Web Frameworks.
         </p>
 
         <p>I handle both ends of the development from the ground up.</p>
@@ -24,7 +26,7 @@ function HomeAbout() {
         </div>
       </div>
 
-      <h2 className="mb-3 font-semibold mt-12">My Tech Stack</h2>
+      <h2 className="mb-3 font-semibold text-base mt-12">My Tech Stack</h2>
       <div className="about__content text-grey-300 space-y-6">
         <div>
           <h3 className="mb-1.5 font-medium">Front-end:</h3>

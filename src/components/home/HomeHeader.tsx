@@ -1,9 +1,10 @@
 import { useCallback } from 'react';
 import { ExternalLink } from 'react-feather';
 import { URL_UPWORK } from '@/config/site';
+import cn from 'classnames';
 import Image from 'next/image';
 import image from '@/assets/images/mesi.webp';
-import Pipe from '@/components/home/SkillPipe';
+import Dot from '@/components/home/Dot';
 
 const majorTools = [
   'PHP',
@@ -14,19 +15,25 @@ const majorTools = [
   'Next.js',
 ];
 
-function HomeHeader() {
+function HomeHeader({ className }: any) {
   const renderSkills = useCallback(
     () =>
       majorTools.map((item, index) => (
         <>
-          {item}{index < majorTools.length - 1 && <Pipe />}
+          {item}
+          {index < majorTools.length - 1 && <Dot />}
         </>
       )),
     []
   );
 
   return (
-    <section className="flex flex-col sm:flex-row sm:items-center max-w-2xl mx-auto gap-y-6 sm:gap-x-8 my-12">
+    <section
+      className={cn(
+        className,
+        'flex flex-col sm:flex-row sm:items-center max-w-2xl mx-auto gap-y-6 sm:gap-x-8'
+      )}
+    >
       <span>
         <Image
           src={image}
