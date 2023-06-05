@@ -7,3 +7,5 @@ export const defaultMetadata = {
 
 export const URL_UPWORK =
   'https://www.upwork.com/freelancers/~0199bd5921ffe7c943';
+
+export const URL_LINKEDIN = 'https://www.linkedin.com/in/erwinmesi/';

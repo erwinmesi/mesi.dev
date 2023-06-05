@@ -1,8 +1,9 @@
 import logo from '@/assets/images/mesidotdev--sm.webp';
 import Image from 'next/image';
 import SiteButton from '@/components/ui/SiteButton';
-import { URL_UPWORK } from '@/config/site';
+import { URL_LINKEDIN } from '@/config/site';
 import { ExternalLink } from 'react-feather';
+import IconLinkedIn from '../ui/icons/IconLinkedIn';
 
 function SiteHeader() {
   return (
@@ -17,9 +18,11 @@ function SiteHeader() {
             className="object-contain"
           />
         </a>
-        <a href={URL_UPWORK} target="_blank">
+        <a href={URL_LINKEDIN} target="_blank">
           <SiteButton>
-            Hire me
+            <span className='flex items-center gap-1'>
+              Get <IconLinkedIn size="16" className="pb-0.5" /> touch
+            </span>
             <ExternalLink size="14" />
           </SiteButton>
         </a>
