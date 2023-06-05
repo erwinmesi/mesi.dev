@@ -3,7 +3,7 @@ import { ExternalLink } from 'react-feather';
 import workHistory from '@/contents/workHistory';
 import Dot from '@/components/home/Dot';
 
-function HomeAbout() {
+function HomeWorkExperience() {
   const renderTools = useCallback((item: any) => {
     return (
       !!item.tools.length && (
@@ -57,4 +57,4 @@ function HomeAbout() {
   );
 }
 
-export default HomeAbout;
+export default HomeWorkExperience;
