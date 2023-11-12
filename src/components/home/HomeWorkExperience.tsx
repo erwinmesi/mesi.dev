@@ -22,7 +22,7 @@ function HomeWorkExperience() {
   }, []);
 
   return (
-    <section className="max-w-2xl mx-auto">
+    <section className="max-w-xl mx-auto">
       <h2 className="mb-3 font-semibold text-base">Work Experience</h2>
       {workHistory.list.map((item) => {
         return (

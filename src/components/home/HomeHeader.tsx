@@ -7,12 +7,13 @@ import image from '@/assets/images/mesi.webp';
 import Dot from '@/components/home/Dot';
 
 const majorTools = [
-  'PHP',
-  'Laravel',
-  'Vue.js',
-  'Nuxt.js',
   'React.js',
   'Next.js',
+  'Vue.js',
+  'Nuxt.js',
+  'Laravel',
+  'Flask',
+  'Strapi',
 ];
 
 function HomeHeader({ className }: any) {
@@ -31,7 +32,7 @@ function HomeHeader({ className }: any) {
     <section
       className={cn(
         className,
-        'flex flex-col sm:flex-row sm:items-center max-w-2xl mx-auto gap-y-6 sm:gap-x-8'
+        'flex flex-col sm:flex-row sm:items-center max-w-xl mx-auto gap-y-6 sm:gap-x-8'
       )}
     >
       <span>

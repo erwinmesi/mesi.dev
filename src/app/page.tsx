@@ -5,13 +5,11 @@ import HomeFeaturedWorks from '@/components/home/HomeFeaturedWorks';
 
 function page() {
   return (
-    <main className="site__container pb-28">
-      <HomeHeader className="mb-16" />
+    <main className="site__container pt-8 pb-28 space-y-16">
+      <HomeHeader />
       <HomeIntro />
-      <hr className="max-w-2xl mx-auto border-grey-600 my-16" />
       <HomeWorkExperience />
-      <hr className="max-w-2xl mx-auto border-grey-600 my-16" />
-      <HomeFeaturedWorks />
+      {/* <HomeFeaturedWorks /> */}
     </main>
   );
 }

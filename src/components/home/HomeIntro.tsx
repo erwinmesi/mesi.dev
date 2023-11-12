@@ -2,7 +2,7 @@ import cn from 'classnames';
 
 function HomeAbout({ className }: any) {
   return (
-    <section className={cn(className, 'max-w-2xl mx-auto')}>
+    <section className={cn(className, 'max-w-xl mx-auto')}>
       <h2 className="mb-3 font-semibold text-base">About</h2>
       <div className="about__content text-grey-300 space-y-6">
         <p>

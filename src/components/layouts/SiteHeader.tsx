@@ -8,14 +8,14 @@ import IconLinkedIn from '../ui/icons/IconLinkedIn';
 function SiteHeader() {
   return (
     <header>
-      <nav className="site__container py-4 flex-center-y justify-between">
+      <nav className="site__container !max-w-xl md:px-0 py-7 flex-center-y justify-between">
         <a href="/">
           <Image
             src={logo}
             alt="Mesidotdev Logo"
             height={32}
             width={32}
-            className="object-contain"
+            className="object-contain rounded"
           />
         </a>
         <a href={URL_LINKEDIN} target="_blank">
