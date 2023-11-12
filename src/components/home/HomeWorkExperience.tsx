@@ -1,19 +1,19 @@
-import { useCallback } from 'react';
+import { Fragment, useCallback } from 'react';
 import { ExternalLink } from 'react-feather';
 import workHistory from '@/contents/workHistory';
 import Dot from '@/components/home/Dot';
 
 function HomeWorkExperience() {
-  const renderTools = useCallback((item: any) => {
+  const renderTools = useCallback((item: { tools: string[] }) => {
     return (
       !!item.tools.length && (
         <div className="text-grey-500">
-          {item.tools.map((tool: any, index: number) => {
+          {item.tools.map((tool, index: number) => {
             return (
-              <>
+              <Fragment key={`tool--${index}`}>
                 {tool}
                 {index < item.tools.length - 1 && <Dot />}
-              </>
+              </Fragment>
             );
           })}
         </div>
@@ -26,7 +26,7 @@ function HomeWorkExperience() {
       <h2 className="mb-3 font-semibold text-base">Work Experience</h2>
       {workHistory.list.map((item) => {
         return (
-          <>
+          <Fragment key={`history--${item.id}`}>
             <div className="flex flex-col md:flex-row mb-8">
               <div className="expi__duration md:w-48 shrink-0 text-grey-500 mb-0.5 text-xs">
                 {item.date}
@@ -50,7 +50,7 @@ function HomeWorkExperience() {
                 {renderTools(item)}
               </div>
             </div>
-          </>
+          </Fragment>
         );
       })}
     </section>

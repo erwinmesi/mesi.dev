@@ -1,6 +1,6 @@
 import cn from 'classnames';
 
-function HomeAbout({ className }: any) {
+function HomeAbout({ className }: { className?: string }) {
   return (
     <section className={cn(className, 'max-w-xl mx-auto')}>
       <h2 className="mb-3 font-semibold text-base">About</h2>

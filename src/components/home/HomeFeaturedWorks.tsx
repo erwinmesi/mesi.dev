@@ -12,11 +12,11 @@ function HomeFeaturedWorks() {
     setIsClient(true);
   }, []);
 
-  const renderTools = useCallback((item: any) => {
+  const renderTools = useCallback((item: { tools: string[] }) => {
     return (
       !!item.tools?.length && (
         <div className="text-grey-500">
-          {item.tools.map((tool: any, index: number) => {
+          {item.tools.map((tool: string, index: number) => {
             return (
               <span key={`tool-${index}`}>
                 {tool}

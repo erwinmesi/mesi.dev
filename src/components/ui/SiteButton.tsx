@@ -1,6 +1,17 @@
 import { useMemo } from 'react';
 import cn from 'classnames';
 
+interface Props {
+  className?: string;
+  children?: React.ReactNode;
+  disabled?: boolean;
+  rounded?: boolean;
+  size?: string;
+  type?: 'button' | 'submit';
+  variant?: string;
+  onClick?: React.MouseEventHandler;
+}
+
 function AppButton({
   className,
   children,
@@ -9,8 +20,8 @@ function AppButton({
   rounded = true,
   size = 'md',
   type = 'button',
-  variant = 'primary'
-}: any) {
+  variant = 'primary',
+}: Props) {
   const borderRadiusClass = useMemo(() => {
     if (!rounded) {
       return 'rounded-none';
