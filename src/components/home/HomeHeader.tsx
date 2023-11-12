@@ -1,6 +1,6 @@
-import { useCallback } from 'react';
+import { Fragment, useCallback } from 'react';
 import { ExternalLink } from 'react-feather';
-import { URL_UPWORK } from '@/config/site';
+import { useConfigStore } from '@/store/Config';
 import cn from 'classnames';
 import Image from 'next/image';
 import image from '@/assets/images/mesi.webp';
@@ -16,14 +16,16 @@ const majorTools = [
   'Strapi',
 ];
 
-function HomeHeader({ className }: any) {
+function HomeHeader({ className }: { className?: string }) {
+  const config = useConfigStore.getState();
+
   const renderSkills = useCallback(
     () =>
       majorTools.map((item, index) => (
-        <>
+        <Fragment key={index}>
           {item}
           {index < majorTools.length - 1 && <Dot />}
-        </>
+        </Fragment>
       )),
     []
   );
@@ -51,7 +53,7 @@ function HomeHeader({ className }: any) {
         </p>
         <p className="text-sm">{renderSkills()}</p>
         <p className="text-grey-300 hover:text-grey-300 hover:underline flex">
-          <a href={URL_UPWORK} target="_blank">
+          <a href={config.upwork_url} target="_blank">
             Upwork Freelancer <ExternalLink className="ml-1 inline" size="14" />
           </a>
         </p>

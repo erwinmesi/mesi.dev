@@ -1,11 +1,12 @@
 import logo from '@/assets/images/mesidotdev--sm.webp';
 import Image from 'next/image';
 import SiteButton from '@/components/ui/SiteButton';
-import { URL_LINKEDIN } from '@/config/site';
 import { ExternalLink } from 'react-feather';
-import IconLinkedIn from '../ui/icons/IconLinkedIn';
+import { useConfigStore } from '@/store/Config';
 
 function SiteHeader() {
+  const config = useConfigStore.getState();
+
   return (
     <header>
       <nav className="site__container !max-w-xl md:px-0 py-7 flex-center-y justify-between">
@@ -18,10 +19,10 @@ function SiteHeader() {
             className="object-contain rounded"
           />
         </a>
-        <a href={URL_LINKEDIN} target="_blank">
+        <a href={config.linkedin_url} target="_blank">
           <SiteButton>
-            <span className='flex items-center gap-1'>
-              Get <IconLinkedIn size="16" className="pb-0.5" /> touch
+            <span className="flex items-center gap-1">
+              {config.navbar_cta_text}
             </span>
             <ExternalLink size="14" />
           </SiteButton>

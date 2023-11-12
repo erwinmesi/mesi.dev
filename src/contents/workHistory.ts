@@ -1,16 +1,21 @@
-import { URL_UPWORK } from '@/config/site'
+
+import { useConfigStore } from '@/store/Config';
+
+const config = useConfigStore.getState()
 
 const content = {
   list: [
     {
+      id: 6,
       role: 'Full-Stack Web and Cross-Platform Mobile Developer',
       company: 'Upwork',
-      companyURL: URL_UPWORK,
+      companyURL: config.upwork_url,
       description: 'Full-time freelancing (3rd time)',
       date: 'Sep 2022 - Present',
       tools: ['Flask', 'Django', 'Vue', 'Nuxt', 'React', 'Next', 'Laravel', 'Strapi', 'Jira', 'Asana'],
     },
     {
+      id: 5,
       role: 'Senior Web Developer',
       company: 'i-Cube Digital Solutions, Inc.',
       companyURL: 'https://i-cube-digitalsolutions.com/',
@@ -19,14 +24,16 @@ const content = {
       tools: ['Vue', 'Nuxt', 'React', 'Python', 'Laravel', 'Jira', 'Confluence'],
     },
     {
+      id: 4,
       role: 'Full-Stack Web and Cross-Platform Mobile Developer',
       company: 'Upwork',
-      companyURL: URL_UPWORK,
+      companyURL: config.upwork_url,
       description: 'Full-time freelancing (2nd time)',
       date: 'Feb 2018 - Jan 2019',
       tools: ['Vue', 'React', 'Laravel', 'Semantic UI', 'Bootstrap', 'Trello'],
     },
     {
+      id: 3,
       role: 'Associate Software Engineer',
       company: 'Accenture',
       companyURL: 'https://www.accenture.com/ph-en/',
@@ -35,14 +42,16 @@ const content = {
       tools: ['SAP HCM', 'SAP MM'],
     },
     {
+      id: 2,
       role: 'Full-Stack Web and Cross-Platform Mobile Developer',
       company: 'Upwork',
-      companyURL: URL_UPWORK,
+      companyURL: config.upwork_url,
       description: 'Full-time freelancing (1st time)',
       date: 'Oct 2017 - Dec 2017',
       tools: ['Vue', 'Laravel', 'Node', 'Semantic UI', 'Bootstrap', 'Trello'],
     },
     {
+      id: 1,
       role: 'Software Development Engineer',
       company: 'Solution Resource Inc.',
       companyURL: 'https://solutionsresource.com/',
