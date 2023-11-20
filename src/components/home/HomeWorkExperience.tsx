@@ -28,8 +28,10 @@ function HomeWorkExperience() {
         return (
           <Fragment key={`history--${item.id}`}>
             <div className="flex flex-col md:flex-row mb-8">
-              <div className="expi__duration md:w-48 shrink-0 text-grey-500 mb-0.5 text-xs">
-                {item.date}
+              <div className="expi__duration md:w-48 shrink-0 text-grey-500 mb-0.5 text-xs space-y-2">
+                {item.dates?.map((date) => (
+                  <div key={date}>{date}</div>
+                ))}
               </div>
               <div className="expi__content space-y-1">
                 <h3 className="font-medium">{item.role}</h3>
