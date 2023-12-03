@@ -40,3 +40,4 @@ dist-repo
 
 # ENV
 .env
+.vscode

@@ -111,7 +111,7 @@ const content = {
     },
     {
       id: 11,
-      name: 'Socialays Web App (Front-end fixes)',
+      name: 'Socialays Web App (Front-end optimizations)',
       description: 'An AI-Based Social Media Assistant.',
       date: '2021',
       role: 'Front-end Developer',
@@ -150,7 +150,7 @@ const content = {
       role: 'Front-end Developer',
       type: 'Web Application',
       archi: 'SPA',
-      url: 'https://app.kotapp.io',
+      url: 'https://kotapp.io',
       tools: ['Nuxt.js', 'Tailwind', 'Vuex']
     },
     {
