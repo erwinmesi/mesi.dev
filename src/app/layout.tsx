@@ -1,19 +1,12 @@
 import { useConfigStore } from '@/store/Config';
 import SiteHeader from '@/components/layouts/SiteHeader';
 import '@/assets/styles/globals.scss';
-import ConfigService from '@/services/ConfigService';
-
-const initConfig = async () => {
-  const { data } = await ConfigService.getConfig();
-  useConfigStore.setState(data.data.attributes);
-};
 
 export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  await initConfig();
   const config = useConfigStore.getState();
 
   return (
