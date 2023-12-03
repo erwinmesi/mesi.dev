@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useMemo, Fragment, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { ExternalLink } from 'react-feather';
 import featuredWorks from '@/contents/featuredWorks';
 import Dot from '@/components/home/Dot';
