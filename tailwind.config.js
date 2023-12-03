@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'charcoal': '#181818',
+        'charcoal': '#181A1B',
 
         grey: {
           DEFAULT: 'var(--color-grey)',
