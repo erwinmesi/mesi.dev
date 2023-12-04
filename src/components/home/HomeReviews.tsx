@@ -16,7 +16,7 @@ function HomeFeaturedWorks() {
               {review.message}
               <br />
               <br />
-              <strong className="text-gray-500">&mdash; {review.firstname} {review.lastname}</strong>
+              <strong className="text-gray-500">&mdash; {review.firstname[0]}. {review.lastname}</strong>
             </blockquote>
         ))}
       </div>
