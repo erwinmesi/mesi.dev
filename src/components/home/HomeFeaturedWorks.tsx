@@ -31,7 +31,10 @@ function HomeFeaturedWorks() {
 
   return (
     <section className="max-w-xl mx-auto">
-      <h2 className="mb-3 font-semibold text-base">Featured Works</h2>
+      <div className="mb-4">
+        <h2 className="font-semibold text-base">Featured Works</h2>
+        <p className="text-sm text-gray-400">{"A selection of projects I've worked on throughout the years"}</p>
+      </div>
       {isClient &&
         featuredWorks.list.map((item) => {
           return (

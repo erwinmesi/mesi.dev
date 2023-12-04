@@ -5,7 +5,7 @@ export const reviews = [
     firstname: 'Mark',
     lastname: 'Marquez',
     company: 'THIO Inc.',
-    published: true,
+    published: false,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const reviews = [
     firstname: 'Corine',
     lastname: 'Morin',
     company: 'CyberPublicity',
-    published: true,
+    published: false,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const reviews = [
     firstname: 'Olivia',
     lastname: 'Stodieck',
     company: 'Dapta',
-    published: true,
+    published: false,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const reviews = [
     firstname: 'Serhan',
     lastname: 'Kayalar',
     company: 'Socialays',
-    published: true,
+    published: false,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const reviews = [
     firstname: 'Jackye',
     lastname: 'Govaerts',
     company: 'HelpDesk Heroes',
-    published: true,
+    published: false,
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const reviews = [
     firstname: 'Corine',
     lastname: 'Morin',
     company: 'CyberPublicity',
-    published: true,
+    published: false,
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ export const reviews = [
     firstname: 'Chris',
     lastname: 'Bellamy',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const reviews = [
     firstname: 'Olivia',
     lastname: 'Stodieck',
     company: 'Dapta',
-    published: true,
+    published: false,
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const reviews = [
     firstname: 'Melih',
     lastname: 'Tuzunoglu',
     company: 'Socialays',
-    published: true,
+    published: false,
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const reviews = [
     firstname: 'Neil',
     lastname: 'Sorathia',
     company: 'Booking Tool',
-    published: true,
+    published: false,
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ export const reviews = [
     firstname: 'Ryan',
     lastname: 'Talbert',
     company: '9to5 Ninja',
-    published: true,
+    published: false,
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ export const reviews = [
     firstname: 'Scott',
     lastname: 'Smith',
     company: 'Dept5',
-    published: true,
+    published: false,
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ export const reviews = [
     firstname: 'Corine',
     lastname: 'Morin',
     company: 'CyberPublicity',
-    published: true,
+    published: false,
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ export const reviews = [
     firstname: 'Chris',
     lastname: 'Bellamy',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Lack',
     company: 'Sin City Web Designs',
-    published: true,
+    published: false,
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ export const reviews = [
     firstname: 'Vishva',
     lastname: 'Dave',
     company: 'Instadapp Labs',
-    published: true,
+    published: false,
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ export const reviews = [
     firstname: 'Fabio ',
     lastname: 'Souto',
     company: 'Wheel Carnival',
-    published: true,
+    published: false,
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ export const reviews = [
     firstname: 'Stephane',
     lastname: 'Kasriel',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ export const reviews = [
     firstname: 'Jurre',
     lastname: 'Schieving',
     company: 'FinOps BV',
-    published: true,
+    published: false,
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ export const reviews = [
     firstname: 'Chris',
     lastname: 'Bellamy',
     company: 'xxx',
-    published: true,
+    published: false,
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Boyd',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 23,
@@ -181,7 +181,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Lack',
     company: 'Sin City Web Designs',
-    published: true,
+    published: false,
   },
   {
     id: 24,
@@ -189,7 +189,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Lack',
     company: 'Sin City Web Designs',
-    published: true,
+    published: false,
   },
   {
     id: 25,
@@ -205,7 +205,7 @@ export const reviews = [
     firstname: 'Chris',
     lastname: 'Bellamy',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 27,
@@ -213,7 +213,7 @@ export const reviews = [
     firstname: 'Sumit',
     lastname: 'Talreja',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 28,
@@ -229,7 +229,7 @@ export const reviews = [
     firstname: 'Als',
     lastname: 'Eds',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 30,
@@ -237,7 +237,7 @@ export const reviews = [
     firstname: 'Felix',
     lastname: 'Steuer',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 31,
@@ -245,7 +245,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Boyd',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 32,
@@ -253,7 +253,7 @@ export const reviews = [
     firstname: 'Sumit',
     lastname: 'Talreja',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 33,
@@ -269,7 +269,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Lack',
     company: 'Sin City Web Designs',
-    published: true,
+    published: false,
   },
   {
     id: 35,
@@ -277,7 +277,7 @@ export const reviews = [
     firstname: 'Kristina',
     lastname: 'Charisovaite',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 36,
@@ -285,7 +285,7 @@ export const reviews = [
     firstname: 'Joan',
     lastname: 'Azeka',
     company: 'PickleballWeather',
-    published: true,
+    published: false,
   },
   {
     id: 37,
@@ -293,7 +293,7 @@ export const reviews = [
     firstname: 'Chris',
     lastname: 'Bellamy',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 38,
@@ -301,7 +301,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Lack',
     company: 'Sin City Web Designs',
-    published: true,
+    published: false,
   },
   {
     id: 39,
@@ -309,7 +309,7 @@ export const reviews = [
     firstname: 'Chris',
     lastname: 'Bellamy',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 40,
@@ -317,7 +317,7 @@ export const reviews = [
     firstname: 'Chris',
     lastname: 'Bellamy',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 41,
@@ -325,7 +325,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Lack',
     company: 'Sin City Web Designs',
-    published: true,
+    published: false,
   },
   {
     id: 42,
@@ -333,7 +333,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Lack',
     company: 'Sin City Web Designs',
-    published: true,
+    published: false,
   },
   {
     id: 43,
@@ -341,7 +341,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Lack',
     company: 'Sin City Web Designs',
-    published: true,
+    published: false,
   },
   {
     id: 44,
@@ -349,7 +349,7 @@ export const reviews = [
     firstname: 'Chris',
     lastname: 'Bellamy',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 45,
@@ -365,7 +365,7 @@ export const reviews = [
     firstname: 'Cyril',
     lastname: 'Byrne',
     company: 'Varoom',
-    published: true,
+    published: false,
   },
   {
     id: 47,
@@ -373,7 +373,7 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Boyd',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 48,
@@ -381,7 +381,7 @@ export const reviews = [
     firstname: 'Xue',
     lastname: 'Han',
     company: null,
-    published: true,
+    published: false,
   },
   {
     id: 49,
@@ -405,6 +405,6 @@ export const reviews = [
     firstname: 'Brian',
     lastname: 'Boyd',
     company: null,
-    published: true,
+    published: false,
   }
 ]

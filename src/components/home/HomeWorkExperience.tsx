@@ -23,7 +23,10 @@ function HomeWorkExperience() {
 
   return (
     <section className="max-w-xl mx-auto">
-      <h2 className="mb-3 font-semibold text-base">Work Experience</h2>
+      <div className="mb-4">
+        <h2 className="font-semibold text-base">Work Experience</h2>
+        <p className="text-sm text-gray-400">A timeline of my professional journey and milestones</p>
+      </div>
       {workHistory.list.map((item) => {
         return (
           <Fragment key={`history--${item.id}`}>
