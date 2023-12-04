@@ -9,7 +9,7 @@ const content = {
       role: 'Full-Stack Web and Cross-Platform Mobile Developer',
       company: 'Upwork',
       companyURL: config.upwork_url,
-      description: 'Full-time freelancing (3rd time)',
+      description: 'Full-time freelancing',
       dates: [
         'Sep 2022 - Present',
         'Feb 2018 - Jan 2019',
