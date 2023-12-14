@@ -1,6 +1,7 @@
 import { useConfigStore } from '@/store/Config';
 import SiteHeader from '@/components/layouts/SiteHeader';
 import '@/assets/styles/globals.scss';
+import SiteWipNotice from '@/components/ui/SiteWipNotice';
 
 export default async function RootLayout({
   children,
@@ -14,6 +15,7 @@ export default async function RootLayout({
       <title>{config.meta_title}</title>
       <meta name="description" content={config.meta_description} />
       <body>
+        <SiteWipNotice />
         <SiteHeader />
         {children}
       </body>
