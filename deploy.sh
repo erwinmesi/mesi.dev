@@ -1,3 +1,4 @@
+npm run build
 rm -rf dist-repo/out
 mv out dist-repo
 cd dist-repo
